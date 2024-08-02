@@ -10,7 +10,7 @@ This project is a movie listing API designed to allow users to list movies, view
 - **Authentication**: JWT (JSON Web Tokens)
 - **ORM**: SQLAlchemy
 - **Password Hashing**: Passlib
-- **Cloud Platform**: (e.g., AWS, Heroku, DigitalOcean)
+- **Cloud Platform**: Render
 - **Testing**: Pytest
 - **Documentation**: OpenAPI/Swagger
 - **Environment Variables**: python-dotenv
@@ -54,8 +54,8 @@ Open your browser and go to http://127.0.0.1:8000/docs to see the interactive AP
 1. **Clone the repository**:
 
    ```sh
-   git clone https://github.com/Peter-devv/movie-listing-api.git
-   cd ecommerce-api
+   git clone https://github.com/Peter-devv/Movie_Listing_App.git
+   cd Movie_Listing_App
    ``` 
 
 2. **Install the dependencies**:
@@ -110,6 +110,7 @@ MOVIE_API/
 │   ├── routers/
 │   ├── tests/
 │   ├── config.py
+|   |── crud.py
 │   ├── database.py
 │   ├── logger.py
 │   ├── main.py

@@ -1,3 +1,0 @@
-rename github repo
-verify repo link for readme
-remove db session from endpoints
