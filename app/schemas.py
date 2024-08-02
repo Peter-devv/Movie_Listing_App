@@ -26,7 +26,7 @@ class UserCreate(UserBase):
 class MovieBase(BaseModel):
     title: str
     genre: str
-    director: str
+    director: str 
    
 class MovieResponseModel(BaseModel):
     id: int 

@@ -1,7 +1,7 @@
 import logging
 
-PAPERTRAIL_HOST = "logs.papertrailapp.com"
-PAPERTRAIL_PORT = 52349
+PAPERTRAIL_HOST = "logs2.papertrailapp.com"
+PAPERTRAIL_PORT = 43906
 
 handler = logging.handlers.SysLogHandler(address=(PAPERTRAIL_HOST, PAPERTRAIL_PORT))
 # formatter = logging.Formatter("%(asctime)s %(levelname)s %(name)s %(message)s")

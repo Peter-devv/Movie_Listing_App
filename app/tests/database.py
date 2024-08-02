@@ -7,8 +7,8 @@ from ..main import app
 from .. import models, database
 from config import settings
 
-SQLALCHEMY_DATABASE_URL = f'postgresql://{settings.database_username}:{settings.database_password}@{settings.database_hostname}:{settings.database_port}/{settings.database_name}'
-engine = create_engine(SQLALCHEMY_DATABASE_URL)
+DATABASE_URL = settings.sqlalchemy_database_url
+engine = create_engine(DATABASE_URL)
 TestingSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
                         
 # This fixture sets up a clean database for each test.
