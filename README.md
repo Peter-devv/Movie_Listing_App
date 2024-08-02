@@ -18,35 +18,35 @@ This project is a movie listing API designed to allow users to list movies, view
 
 ## Features
 
--- **User Authentication:**
+- **User Authentication:**
 Secure user login and registration using JWT, ensuring that only authenticated users can perform certain actions.
 
--- **CRUD Operations:**
+- **CRUD Operations:**
 Create, read, update, and delete operations for movies, users, ratings, and comments, with fine-grained control over who can modify or delete content.
 
--- **Movie Management:**
+- **Movie Management:**
 Users can list new movies, search for existing movies by genre or other criteria, and view detailed information about each movie.
 
--- **Rating and Comments:**
+- **Rating and Comments:**
 Users can rate movies and leave comments, enhancing the interaction within the movie community. Ratings and comments are tied to specific movies and users.
 
--- **Advanced Querying:**
+- **Advanced Querying:**
 The API supports filtering, pagination, and searching, allowing for efficient retrieval of large datasets with ease.
 
--- **Dependency Injection and Modularity:**
+- **Dependency Injection and Modularity:**
 The API leverages FastAPI's dependency injection system to manage resources like database sessions, making it modular, maintainable, and easy to extend.
 
--- **Logging and Error Handling:**
+- **Logging and Error Handling:**
 Built-in logging and comprehensive error handling ensure that the API operates smoothly and that any issues can be diagnosed and resolved quickly.
 
 
 ## Use Cases:
 
--- **Movie Listing Platforms:** Ideal for building movie databases or platforms where users can share and discover movies.
+- **Movie Listing Platforms:** Ideal for building movie databases or platforms where users can share and discover movies.
 
--- **Review Aggregators:** Can be used for services that aggregate and manage movie ratings and reviews.
+- **Review Aggregators:** Can be used for services that aggregate and manage movie ratings and reviews.
 
--- **Content Management Systems (CMS):** Suitable for media-related CMS where movies and related content are core components.
+- **Content Management Systems (CMS):** Suitable for media-related CMS where movies and related content are core components.
 
 ## Getting Started
 
